@@ -1,25 +1,25 @@
-# Projeto de Detecção Precoce de doenças cardíacas  
+#  Predicting cardiovascular diseases
 
-O projeto ainda está em construção mas você pode acompanhar o andamento.
 
-# Estratégia de Solução
+##Cardio Catch Diseases
 
-### Passo 01. Data Description 
 
-### Passo 02. Feature Engineering
+#Problem
+ 
+Cardio Catch Diseases is a company specialized in detecting heart disease in the early stages. Its business model lies in offering an early diagnosis of cardiovascular disease for a certain price.
 
-### Passo 03. Data Filtering
+Currently, the diagnosis of cardiovascular disease is manually made by a team of specialists. The current accuracy of the diagnosis varies between 55% and 65%, due to the complexity of the diagnosis and also the fatigue of the team who take turns to minimize the risks. The cost of each diagnosis, including the devices and the payroll of the analysts, is around $1,000.00.
 
-### Passo 04. Exploratory Data Analysis
+The price of the diagnosis, paid by the client, varies according to the precision achieved by the team of specialists.
 
-### Passo 05. Data Preparation
+| Exam Accuracy | Price          | Rules                                    | Example                         |
+|:--------------|:---------------|:-----------------------------------------|:--------------------------------|
+| Above 50%     | min \$500\.00  | \+\$500 for each additional 5% precision | Precision = 55% \-> \$1,000\.00 |
+| Up to 50%     | $0\.00         | N/A                                      | N/A                             |
 
-### Passo 06. Feature Selection
+Thus, we see that **different values in the exam precision**, given by the team of specialists, make the company either have a profitable operation, revenue greater than the cost, or an operation with a loss, revenue less than the cost. This instability of the diagnosis makes the company to have an **unpredictable cashflow**.
 
-### Passo 07. Machine Learning Modelling
+link : https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-doencas-cardiovasculares/
 
-### Passo 08. Hyperparameter Fine Tunnig
 
-### Passo 09. Convert Model Performance to Business Values
 
-### Passo 10. Deploy Model to Production
