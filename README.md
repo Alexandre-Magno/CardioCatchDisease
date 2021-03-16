@@ -1,10 +1,10 @@
 #  Predicting cardiovascular diseases
 
 
-##Cardio Catch Diseases
+## Cardio Catch Diseases
 
 
-#Problem
+#### Problem
  
 Cardio Catch Diseases is a company specialized in detecting heart disease in the early stages. Its business model lies in offering an early diagnosis of cardiovascular disease for a certain price.
 
@@ -17,9 +17,18 @@ The price of the diagnosis, paid by the client, varies according to the precisio
 | Above 50%     | min \$500\.00  | \+\$500 for each additional 5% precision | Precision = 55% \-> \$1,000\.00 |
 | Up to 50%     | $0\.00         | N/A                                      | N/A                             |
 
-Thus, we see that **different values in the exam precision**, given by the team of specialists, make the company either have a profitable operation, revenue greater than the cost, or an operation with a loss, revenue less than the cost. This instability of the diagnosis makes the company to have an **unpredictable cashflow**.
+We see that **different values in the exam precision**, given by the team of specialists, make the company either have a profitable operation, revenue greater than the cost, or an operation with a loss, revenue less than the cost. This instability of the diagnosis makes the company to have an **unpredictable cashflow**.
 
 link : https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-doencas-cardiovasculares/
+
+# Solution
+![image](img/st_descrip.png)
+
+
+
+
+
+
 
 
 
